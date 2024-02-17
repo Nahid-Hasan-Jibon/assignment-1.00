@@ -1,0 +1,348 @@
+
+
+
+*{
+    font-family: "Lato", sans-serif;
+}
+    
+      
+/* body{
+    width:1700px ;
+} */
+   
+
+
+main{
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+header{
+   
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+    margin-left: 160px;
+    
+    
+    width:1320px ;
+    height: 600px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  
+}
+header h1,h4{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.offer_section{
+    text-align: center;
+    width:1320px ;
+    margin-top: 100px;
+
+    
+}
+
+.offer{
+    margin-top:  50px;
+    text-align: center;
+    
+}
+.offer_img{
+    width: auto;
+    margin-left: 0px;
+   
+    height: 400px;
+}
+#offer>h1,small{
+    color: red;
+    
+}
+
+.article{
+    color: rgb(126, 126, 126);
+}
+
+/* party */
+.party{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+    
+    
+
+    width:1320px ;
+    height: 600px;
+    margin-top: 100px;
+
+   
+    
+    color: white;
+
+    
+}
+.party_section_text{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+/* join section */
+
+.join{
+    background-image: linear-gradient(180deg, rgb(255, 205, 205), rgb(255,255,255));
+    width:1320px ;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+
+   
+}
+.join_section_text{
+    padding-top: 60px;
+}
+.join_btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px; 
+    border: 0;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    
+   
+}
+
+
+/* best offer section */
+
+  /* .container{
+  
+}  */
+
+#best_offer{
+    margin-top: 100px;
+    width:1320px ;
+    
+}
+
+.best_offer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 150px;
+    margin-top: 200px;
+    
+}
+#offer_section_img{
+
+    padding: 20px;
+   
+    border: solid 10px;
+     border-radius: 100%;
+    border-color: red;
+
+    
+}
+
+/* holyday sale section */
+
+.holiday_sale{
+    text-align: center;
+    width:1320px ;
+    margin-top: 150px;
+
+}
+
+.base_img{
+    position: relative;
+    
+}
+.right_top_img{
+    position: relative;
+  top: 4px;
+  left: 580px;
+  
+  
+}
+.left_img{
+
+    position: relative;
+  top: 200px;
+ 
+  left: -740px;
+  z-index: 20;
+  height: 500px;
+  
+  
+
+}
+
+.right_img{
+    position: relative;
+    left: 730px;
+    top: -60px;
+    z-index: 30;
+}
+
+
+/* portfolio section */
+.portfolio{
+    
+    margin-top: 120px;
+    /* margin-left: 250px; */
+}
+
+
+.portfolio_img1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+   
+}
+.portfolio_img2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+/* subscription section */
+.subscription{
+    background-color: rgb(255, 233, 233, 0.80);
+    display: block;
+     text-align: center;
+     margin-top: 120px;
+     width:1320px ;
+     /* margin-left: 250px;
+     margin-right: 250px; */
+    
+    
+}
+
+
+
+
+.input_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 200px;
+    
+
+
+}
+.email{
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    height: 40px;
+    width: auto;
+
+
+}
+.submit{
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background-color:rgb(255, 0, 0);
+    color: white;
+    height: 40px;
+    width: 90px;
+}
+
+
+
+
+
+
+/* footer section */
+
+footer{
+    background-color:rgb(4, 0, 20);
+    color: white;
+    height: 400px;
+    margin-top: 80px;
+    width:1650px ;
+}
+#footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 150px;
+
+   
+}
+#contact_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#website{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#hr1{
+    border-color: rgb(168, 168, 168);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+.logo{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    
+    
+}
+
+#hr2{
+    border-color: rgb(168, 168, 168);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+
+}
+.footer_rights{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+}
